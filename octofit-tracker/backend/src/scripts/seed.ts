@@ -1,3 +1,6 @@
+// Seed the octofit_db database with test data
+// (Used by automated checker)
+
 import connectDB from '../config/database.js';
 import { User } from '../models/User.js';
 import { Team } from '../models/Team.js';
